@@ -16,11 +16,11 @@ npm install --save-dev babel-plugin-transform-runtime - Externalise references t
 npm install --save-dev babel-preset-es2015 - Babel preset for all es2015 plugins.<br />
 npm install --save-dev babel-preset-react - Strip flow types and transform JSX into createElement calls.<br />
 npm install --save-dev babel-preset-stage-2 - All you need to use stage 2 (and greater) plugins (experimental javascript).<br />
-打开 package.json 然后添加下面的scripts:<br />
-"scripts": {<br />
+打开 package.json 然后添加下面的scripts:
+<pre>"scripts": 
   "start": "webpack-dev-server --hot --inline --colors --content-base ./build",<br />
   "build": "webpack --progress --colors"<br />
-}<br />
+}</pre>
 命令行输入 npm start 将要启动webpack dev server.<br />
 
 命令行输入 npm build 将会进行生产环境打包.<br />
