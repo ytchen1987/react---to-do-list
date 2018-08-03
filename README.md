@@ -27,7 +27,7 @@ npm install --save-dev babel-preset-stage-2 - All you need to use stage 2 (and g
 <p>命令行输入 npm start 将要启动webpack dev server.</p>
 
 <p>命令行输入 npm build 将会进行生产环境打包.</p>
-<h4>4. 启动webpack</h4>
+<h4>启动webpack</h4>
 
 <p>Webpack是我们的打包工具，在我们的开发环境中具体很重要的作用，具有很多非常便捷的特性，尤其是热加载hot reloading. webpack.config.js 是如下所示的webpack的配置文件. 随着app的不断变化，配置文件也会不断的更新，这里我们就用默认的webpack.config.js来命名这个配置文件，假如你用别的名字比如webpack.config.prod.js那么上面的脚本build就需要相应的改变指定相应的配置文件名字："build": "webpack webpack.config.prod.js --progress --colors"
 </p>
