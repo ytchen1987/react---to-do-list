@@ -1,11 +1,10 @@
 <h3>这是一个从头搭建一个react简单应用的教程，最开始学redux时候从别人那copy后用到的，现在回过头看还是可以算作最好的一个demo了，重新更新了代码和一些配置，在github找到了初始版本，在此感谢作者</h3>
-
-
+<hr />
 <ul>
 
 <li>这是主标题
   <ul>
-  <li>这是副标题啦</li></ul>
+    <li><a href="//fenqile.com" >click me</a>这是副标题啦</li></ul>
 
 </li>
 <li>这是主标题
