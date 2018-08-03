@@ -1,8 +1,8 @@
-<h5>这是一个从头搭建一个react简单应用的教程，最开始学redux时候从别人那copy后用到的，现在回过头看还是可以算作最好的一个demo了，重新更新了代码和一些配置，在github找到了初始版本，在此感谢作者</h5>
+<h2>这是一个从头搭建一个react简单应用的教程，最开始学redux时候从别人那copy后用到的，现在回过头看还是可以算作最好的一个demo了，重新更新了代码和一些配置，在github找到了初始版本，在此感谢作者</h2>
 
-从头开始建立一个React App - 项目基本配置 <br />
-npm init 生成 package.json 文件.<br />
-安装各种需要的依赖:<br />
+<p style="color:red;">从头开始建立一个React App - 项目基本配置 </p>
+<p>npm init 生成 package.json 文件.</p>
+<p>安装各种需要的依赖:</p>
 npm install --save react - 安装React.<br />
 npm install --save react-dom 安装React Dom,这个包是用来处理virtual DOM。这里提一下用React Native的话，这里就是安装react-native。<br />
 npm install --save-dev webpack - 安装Webpack, 现在最流行的模块打包工具.<br />
